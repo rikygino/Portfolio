@@ -1,0 +1,101 @@
+baseURL: #"https://rikygino.github.io/"
+languageCode: en-us
+title: Rick
+theme: ["PaperMod"]
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: projects
+      name: Projects
+      url: /projects
+      weight: 20
+    - identifier: blog
+      name: Blog
+      url: /blog
+      weight: 30
+    - identifier: archive
+      name: Archive
+      url: /archives
+      weight: 40
+    - identifier: search
+      name: Search
+      url: /search
+      weight: 50
+    - identifier: tags
+      name: Tags
+      url: /tags
+      weight: 60
+
+params:
+  # theme
+  showToc: true
+  TocOpen: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  hideMeta: false
+
+  assets: 
+    favicon: "favicons/favicon.ico"
+    favicon16x16:  "favicons/favicon-16x16.png" 
+    favicon32x32:  "favicons/favicon-32x32.png" 
+    apple_touch_icon:  "favicons/apple-touch-icon.png" 
+
+  # for enchanced SEO
+  #env: production
+
+  # Home Page
+  profileMode:
+    enabled: true
+    title: "Riccardo Gjini"
+    subtitle: "Just one moment... I'm building a new AI driven app :)"
+ 
+    imageUrl: "home/Cloud2.png"
+    imageWidth: 320
+    imageHeight: 320
+
+    # buttons:
+    #   - name: Resume
+    #     url: ""
+
+  # List View
+  hideDescriptionInList: false
+
+  # cover image for posts
+  cover:
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  socialIcons:
+    - name: "email"
+      url: "mailto:riccardogjini99@gmail.com"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/riccardogjini"
+    - name: "github"
+      url: "https://github.com/rikygino"
+
+  # text search
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+# for search using Fuse.js
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# allow HTML in MD
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
