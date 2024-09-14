@@ -6,15 +6,7 @@
     <description>Recent content in Blogs on Rick</description>
     <generator>Hugo -- 0.130.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate></lastBuildDate>
     <atom:link href="https://rikygino.github.io/portfolio/blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Test Post</title>
-      <link>https://rikygino.github.io/portfolio/blog/test/</link>
-      <pubDate>Sat, 14 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://rikygino.github.io/portfolio/blog/test/</guid>
-      <description>Test Project Topic This is just a test!
-Introduction You know already&amp;hellip;</description>
-    </item>
   </channel>
 </rss>
