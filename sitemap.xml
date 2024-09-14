@@ -2,14 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://rikygino.github.io/Portfolio/archives/</loc>
+    <loc>https://rikygino.github.io/portfolio/blog/</loc>
+    <lastmod>2024-09-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://rikygino.github.io/Portfolio/categories/</loc>
+    <loc>https://rikygino.github.io/portfolio/projects/</loc>
+    <lastmod>2024-09-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://rikygino.github.io/Portfolio/</loc>
+    <loc>https://rikygino.github.io/portfolio/</loc>
+    <lastmod>2024-09-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://rikygino.github.io/Portfolio/search/</loc>
+    <loc>https://rikygino.github.io/portfolio/blog/test/</loc>
+    <lastmod>2024-09-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://rikygino.github.io/Portfolio/tags/</loc>
+    <loc>https://rikygino.github.io/portfolio/archives/</loc>
+  </url><url>
+    <loc>https://rikygino.github.io/portfolio/categories/</loc>
+  </url><url>
+    <loc>https://rikygino.github.io/portfolio/search/</loc>
+  </url><url>
+    <loc>https://rikygino.github.io/portfolio/tags/</loc>
   </url>
 </urlset>
